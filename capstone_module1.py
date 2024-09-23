@@ -353,7 +353,7 @@ while True:
     main_menu()
     option = int(input("Enter the number of the menu: "))
     if option == 1:
-        database()
+        cardata_sys()
     elif option == 2:
         add_car()
     elif option == 3:
